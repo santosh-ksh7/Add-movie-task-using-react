@@ -1,0 +1,49 @@
+.mainmovieconatiner{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+
+.outerdiv{
+  height: auto;
+  overflow: hidden;
+  width: 300px;
+}
+
+.innerdiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.poster{
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.counter{
+  display: flex;
+  gap: 10px;
+}
+
+.colorblock{
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+.ipfield{
+  padding: 6px;
+}
+.buttonip{
+  padding: 6px;
+}
+
+.movies-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
